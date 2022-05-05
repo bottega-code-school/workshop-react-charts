@@ -3,3 +3,5 @@ export function getRandomNumberInRange(min: number, max: number) {
 }
 
 export const num = () => getRandomNumberInRange(5, 120);
+
+export const name = (first: string, last: string) => `${first} ${last}`;
